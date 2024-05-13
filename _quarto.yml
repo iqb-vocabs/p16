@@ -10,8 +10,13 @@ website:
     logo: IQB-klein.png
     search: true
     left:
-        - href: index.qmd
-          text: "Metadatenprofile für Testaufgaben: Deutsch Sek I"
+      - href: index.qmd
+        text: "Metadatenprofile für Testaufgaben: Deutsch Sek I"
+    right:
+      - icon: github
+        href: https://github.com/iqb-vocabs/p16
+        aria-label: Source Code
+
 
 format:
   html:
