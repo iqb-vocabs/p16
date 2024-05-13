@@ -1,0 +1,21 @@
+{
+  "name": "p16",
+  "version": "0.1.0",
+  "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+  "license": "CC0 1.0",
+  "description": "Metadatenprofile: Deutsch Sek I",
+  "scripts": {
+    "validate": "validate-md-profile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqb-vocabs/p16.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iqb-vocabs/p16/issues"
+  },
+  "homepage": "https://github.com/iqb-vocabs/p16#readme",
+  "dependencies": {
+    "@iqb/validate-md-profile": "^0.7.5"
+  }
+}

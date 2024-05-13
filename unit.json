@@ -1,0 +1,286 @@
+{
+  "id": "https://raw.githubusercontent.com/iqb-vocabs/p16/master/unit.json",
+  "label": [{
+    "lang": "de",
+    "value": "IQB Deutsch Sek I - Aufgabe"
+  }],
+  "groups": [
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Stimulus"
+        }
+      ],
+      "entries": [
+        {
+          "id": "iqb_author",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Entwickler*in"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "single"
+          }
+        },
+        {
+          "id": "k1",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Textschwierigkeit"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v26/ea/",
+            "allowMultipleValues": false
+          }
+        },
+        {
+          "id": "a1",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Als SPF-Text geeignet"
+            }
+          ],
+          "type": "boolean",
+          "parameters": {
+            "trueLabel": [
+              {
+                "lang": "de",
+                "value": "ja"
+              }
+            ],
+            "falseLabel": [
+              {
+                "lang": "de",
+                "value": "nein"
+              }
+            ]
+          }
+        },
+        {
+          "id": "k2",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Textsorte"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/te/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "iqb_other_text_type",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Andere Textsorte"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "single"
+          }
+        },
+        {
+          "id": "iqb_notiz",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Notizfeld"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        },
+        {
+          "id": "iqb_time_stimulus",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Stimuluszeit"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
+        },
+        {
+          "id": "iqb_time_unit",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Aufgabenzeit"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
+        },
+        {
+          "id": "iqb_time_instructions",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Instruktionszeit"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "single"
+          }
+        },
+        {
+          "id": "iqb_time_play",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Anzahl Vorspielen"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0
+          }
+        }
+      ]
+    },
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Quellenangabe"
+        }
+      ],
+      "entries": [
+        {
+          "id": "iqb_art_quelle",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Art der quelle"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        },
+        {
+          "id": "iqb_copyright",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Vollständige Quellenangabe (Text)"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        }
+      ]
+    },
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Hörsequenz"
+        }
+      ],
+      "entries": [
+        {
+          "id": "iqb_speakers",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Anzahl der Sprecher*innen"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0
+          }
+        },
+        {
+          "id": "k4",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Sprechtempo"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/sp/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "k5",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Varianten"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v28/dv/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "k6",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Nebengeräusche"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/ne/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "iqb_transcript",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Hörsequenz Transkript"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        }
+      ]
+    }
+  ]
+}
