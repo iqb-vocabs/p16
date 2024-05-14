@@ -11,20 +11,20 @@
     "href": "index.html#stimulus",
     "title": "Metadatenprofile für Testaufgaben - Deutsch Sek I",
     "section": "Stimulus",
-    "text": "Stimulus\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nEntwickler*in\nText\nEinzeilig, Sprache(n): de\niqb_author\n\n\nTextschwierigkeit\nVokabular\nurl: ‘https://w3id.org/iqb/v26/ea/’, Einmalauswahl\nk1\n\n\nAls SPF-Text geeignet\nJa/Nein\nText für WAHR: ja, Text für FALSCH: nein\na1\n\n\nTextsorte\nVokabular\nurl: ‘https://w3id.org/iqb/v25/te/’, Einmalauswahl, Nummerierung unterdrückt\nk2\n\n\nAndere Textsorte\nText\nEinzeilig, Sprache(n): de\niqb_other_text_type\n\n\nNotizfeld\nText\nMehrzeilig, Sprache(n): de\niqb_notiz\n\n\nStimuluszeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_stimulus\n\n\nAufgabenzeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_unit\n\n\nInstruktionszeit\nText\nEinzeilig, Sprache(n): de\niqb_time_instructions\n\n\nAnzahl Vorspielen\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein\niqb_time_play"
+    "text": "Stimulus\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nEntwickler*in\nText\nEinzeilig, Sprache(n): de\niqb_author\n\n\nTextschwierigkeit\nVokabular\nurl: ‘https://w3id.org/iqb/v26/ea/’, Einmalauswahl\nk0\n\n\nAls SPF-Text geeignet\nJa/Nein\nText für WAHR: ja, Text für FALSCH: nein\na1\n\n\nTexttyp\nVokabular\nurl: ‘https://w3id.org/iqb/v28/tt/’, Einmalauswahl, Nummerierung unterdrückt\nk1\n\n\nTextsorte\nVokabular\nurl: ‘https://w3id.org/iqb/v25/te/’, Einmalauswahl, Nummerierung unterdrückt\nk2\n\n\nAndere Textsorte\nText\nEinzeilig, Sprache(n): de\niqb_other_text_type\n\n\nNotizfeld\nText\nMehrzeilig, Sprache(n): de\niqb_note\n\n\nAngaben zum Urtext und zu Inspirationsquellen\nText\nMehrzeilig, Sprache(n): de\niqb_additional_info\n\n\nStimuluszeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_stimulus\n\n\nAufgabenzeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_unit\n\n\nInstruktionszeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein\niqb_time_instructions\n\n\nAnzahl Vorspielen\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein\niqb_time_play"
   },
   {
     "objectID": "index.html#quellenangabe",
     "href": "index.html#quellenangabe",
     "title": "Metadatenprofile für Testaufgaben - Deutsch Sek I",
     "section": "Quellenangabe",
-    "text": "Quellenangabe\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nArt der quelle\nText\nMehrzeilig, Sprache(n): de\niqb_art_quelle\n\n\nVollständige Quellenangabe (Text)\nText\nMehrzeilig, Sprache(n): de\niqb_copyright"
+    "text": "Quellenangabe\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nArt der Quelle(n)\nVokabular\nurl: ‘https://w3id.org/iqb/v28/aq/’, Einmalauswahl\nk3\n\n\nVollständige Quellenangabe (Text)\nText\nMehrzeilig, Sprache(n): de\niqb_copyright"
   },
   {
     "objectID": "index.html#hörsequenz",
     "href": "index.html#hörsequenz",
     "title": "Metadatenprofile für Testaufgaben - Deutsch Sek I",
     "section": "Hörsequenz",
-    "text": "Hörsequenz\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nAnzahl der Sprecher*innen\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein\niqb_speakers\n\n\nSprechtempo\nVokabular\nurl: ‘https://w3id.org/iqb/v25/sp/’, Einmalauswahl, Nummerierung unterdrückt\nk4\n\n\nVarianten\nVokabular\nurl: ‘https://w3id.org/iqb/v28/dv/’, Einmalauswahl, Nummerierung unterdrückt\nk5\n\n\nNebengeräusche\nVokabular\nurl: ‘https://w3id.org/iqb/v25/ne/’, Einmalauswahl, Nummerierung unterdrückt\nk6\n\n\nHörsequenz Transkript\nText\nMehrzeilig, Sprache(n): de\niqb_transcript"
+    "text": "Hörsequenz\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nAnzahl der Sprecher*innen\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein\niqb_speakers\n\n\nSprechtempo\nVokabular\nurl: ‘https://w3id.org/iqb/v25/sp/’, Einmalauswahl, Nummerierung unterdrückt\nk4\n\n\nVarianten\nVokabular\nurl: ‘https://w3id.org/iqb/v28/dv/’, Mehrfachauswahl, Nummerierung unterdrückt\nk5\n\n\nNebengeräusche\nVokabular\nurl: ‘https://w3id.org/iqb/v25/ne/’, Einmalauswahl, Nummerierung unterdrückt\nk6\n\n\nTranskript\nText\nMehrzeilig, Sprache(n): de\niqb_transcript"
   }
 ]

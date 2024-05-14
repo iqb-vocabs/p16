@@ -183,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: left;">Textschwierigkeit</td>
 <td style="text-align: center;"><a href="https://w3id.org/iqb/v26/ea/">Vokabular</a></td>
 <td style="text-align: left;">url: ‘https://w3id.org/iqb/v26/ea/’, Einmalauswahl</td>
-<td style="text-align: center;">k1</td>
+<td style="text-align: center;">k0</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Als SPF-Text geeignet</td>
@@ -192,22 +192,34 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">a1</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">Texttyp</td>
+<td style="text-align: center;"><a href="https://w3id.org/iqb/v28/tt/">Vokabular</a></td>
+<td style="text-align: left;">url: ‘https://w3id.org/iqb/v28/tt/’, Einmalauswahl, Nummerierung unterdrückt</td>
+<td style="text-align: center;">k1</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">Textsorte</td>
 <td style="text-align: center;"><a href="https://w3id.org/iqb/v25/te/">Vokabular</a></td>
 <td style="text-align: left;">url: ‘https://w3id.org/iqb/v25/te/’, Einmalauswahl, Nummerierung unterdrückt</td>
 <td style="text-align: center;">k2</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Andere Textsorte</td>
 <td style="text-align: center;">Text</td>
 <td style="text-align: left;">Einzeilig, Sprache(n): de</td>
 <td style="text-align: center;">iqb_other_text_type</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Notizfeld</td>
 <td style="text-align: center;">Text</td>
 <td style="text-align: left;">Mehrzeilig, Sprache(n): de</td>
-<td style="text-align: center;">iqb_notiz</td>
+<td style="text-align: center;">iqb_note</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Angaben zum Urtext und zu Inspirationsquellen</td>
+<td style="text-align: center;">Text</td>
+<td style="text-align: left;">Mehrzeilig, Sprache(n): de</td>
+<td style="text-align: center;">iqb_additional_info</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Stimuluszeit</td>
@@ -223,8 +235,8 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Instruktionszeit</td>
-<td style="text-align: center;">Text</td>
-<td style="text-align: left;">Einzeilig, Sprache(n): de</td>
+<td style="text-align: center;">Zahl</td>
+<td style="text-align: left;">Kommastellen: 0, Mindestwert: 0, Maximalwert: kein</td>
 <td style="text-align: center;">iqb_time_instructions</td>
 </tr>
 <tr class="even">
@@ -255,10 +267,10 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Art der quelle</td>
-<td style="text-align: center;">Text</td>
-<td style="text-align: left;">Mehrzeilig, Sprache(n): de</td>
-<td style="text-align: center;">iqb_art_quelle</td>
+<td style="text-align: left;">Art der Quelle(n)</td>
+<td style="text-align: center;"><a href="https://w3id.org/iqb/v28/aq/">Vokabular</a></td>
+<td style="text-align: left;">url: ‘https://w3id.org/iqb/v28/aq/’, Einmalauswahl</td>
+<td style="text-align: center;">k3</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Vollständige Quellenangabe (Text)</td>
@@ -302,7 +314,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td style="text-align: left;">Varianten</td>
 <td style="text-align: center;"><a href="https://w3id.org/iqb/v28/dv/">Vokabular</a></td>
-<td style="text-align: left;">url: ‘https://w3id.org/iqb/v28/dv/’, Einmalauswahl, Nummerierung unterdrückt</td>
+<td style="text-align: left;">url: ‘https://w3id.org/iqb/v28/dv/’, Mehrfachauswahl, Nummerierung unterdrückt</td>
 <td style="text-align: center;">k5</td>
 </tr>
 <tr class="even">
@@ -312,7 +324,7 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">k6</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Hörsequenz Transkript</td>
+<td style="text-align: left;">Transkript</td>
 <td style="text-align: center;">Text</td>
 <td style="text-align: left;">Mehrzeilig, Sprache(n): de</td>
 <td style="text-align: center;">iqb_transcript</td>
@@ -348,30 +360,30 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td style="text-align: left;">Itemformat</td>
-<td style="text-align: center;"><a href="https://w3id.org/iqb/v27/dp/">Vokabular</a></td>
-<td style="text-align: left;">url: ‘https://w3id.org/iqb/v27/dp/’, Einmalauswahl, Nummerierung unterdrückt</td>
+<td style="text-align: center;"><a href="https://w3id.org/iqb/v27/ds/">Vokabular</a></td>
+<td style="text-align: left;">url: ‘https://w3id.org/iqb/v27/ds/’, Einmalauswahl, Nummerierung unterdrückt</td>
 <td style="text-align: center;">s2</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Anforderungsbereich</td>
-<td style="text-align: center;"><a href="https://w3id.org/iqb/v12/a1/">Vokabular</a></td>
-<td style="text-align: left;">url: ‘https://w3id.org/iqb/v12/a1/’, Einmalauswahl, Nummerierung unterdrückt</td>
+<td style="text-align: center;"><a href="https://w3id.org/iqb/v34/a1/">Vokabular</a></td>
+<td style="text-align: left;">url: ‘https://w3id.org/iqb/v34/a1/’, Einmalauswahl, Nummerierung unterdrückt</td>
 <td style="text-align: center;">s3</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Bildungsstandard primär</td>
+<td style="text-align: left;">Bildungsstandard MSA - primär</td>
 <td style="text-align: center;"><a href="https://w3id.org/iqb/v34/sm/">Vokabular</a></td>
 <td style="text-align: left;">url: ‘https://w3id.org/iqb/v34/sm/’, Einmalauswahl</td>
 <td style="text-align: center;">s5</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Bildungsstandards sekundär</td>
+<td style="text-align: left;">Bildungsstandards MSA - sekundär</td>
 <td style="text-align: center;"><a href="https://w3id.org/iqb/v34/sm/">Vokabular</a></td>
 <td style="text-align: left;">url: ‘https://w3id.org/iqb/v34/sm/’, Mehrfachauswahl</td>
 <td style="text-align: center;">s6</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Itemzeit</td>
+<td style="text-align: left;">Itemzeit (IQB intern)</td>
 <td style="text-align: center;">Zahl</td>
 <td style="text-align: left;">Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden</td>
 <td style="text-align: center;">iqb_time_item</td>
