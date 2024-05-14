@@ -27,7 +27,7 @@
           }
         },
         {
-          "id": "k1",
+          "id": "k0",
           "label": [
             {
               "lang": "de",
@@ -65,6 +65,21 @@
           }
         },
         {
+          "id": "k1",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Texttyp"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v28/tt/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
           "id": "k2",
           "label": [
             {
@@ -93,11 +108,24 @@
           }
         },
         {
-          "id": "iqb_notiz",
+          "id": "iqb_note",
           "label": [
             {
               "lang": "de",
               "value": "Notizfeld"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        },
+        {
+          "id": "iqb_additional_info",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Angaben zum Urtext und zu Inspirationsquellen"
             }
           ],
           "type": "text",
@@ -143,9 +171,10 @@
               "value": "Instruktionszeit"
             }
           ],
-          "type": "text",
+          "type": "number",
           "parameters": {
-            "format": "single"
+            "minValue": 0,
+            "digits": 0
           }
         },
         {
@@ -173,16 +202,17 @@
       ],
       "entries": [
         {
-          "id": "iqb_art_quelle",
+          "id": "k3",
           "label": [
             {
               "lang": "de",
-              "value": "Art der quelle"
+              "value": "Art der Quelle(n)"
             }
           ],
-          "type": "text",
+          "type": "vocabulary",
           "parameters": {
-            "format": "multiline"
+            "url": "https://w3id.org/iqb/v28/aq/",
+            "allowMultipleValues": false
           }
         },
         {
@@ -248,7 +278,7 @@
           "type": "vocabulary",
           "parameters": {
             "url": "https://w3id.org/iqb/v28/dv/",
-            "allowMultipleValues": false,
+            "allowMultipleValues": true,
             "hideNumbering": true
           }
         },
@@ -272,7 +302,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Hörsequenz Transkript"
+              "value": "Transkript"
             }
           ],
           "type": "text",

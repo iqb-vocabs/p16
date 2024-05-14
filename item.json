@@ -38,7 +38,7 @@
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "https://w3id.org/iqb/v27/dp/",
+            "url": "https://w3id.org/iqb/v27/ds/",
             "allowMultipleValues": false,
             "hideNumbering": true
           }
@@ -53,7 +53,7 @@
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "https://w3id.org/iqb/v12/a1/",
+            "url": "https://w3id.org/iqb/v34/a1/",
             "allowMultipleValues": false,
             "hideNumbering": true
           }
@@ -63,7 +63,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Bildungsstandard primär"
+              "value": "Bildungsstandard MSA - primär"
             }
           ],
           "type": "vocabulary",
@@ -77,7 +77,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Bildungsstandards sekundär"
+              "value": "Bildungsstandards MSA - sekundär"
             }
           ],
           "type": "vocabulary",
@@ -91,7 +91,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Itemzeit"
+              "value": "Itemzeit (IQB intern)"
             }
           ],
           "type": "number",
