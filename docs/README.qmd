@@ -1,4 +1,6 @@
-# Metadatenprofile für Testaufgaben: Deutsch Sek I
+---
+title: Metadatenprofile für Testaufgaben - Deutsch Sek I
+---
 
 ID of profile-store: `des1`
 
@@ -8,11 +10,11 @@ Maintainer: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
 
 2 Profile definiert:
 
-## Profil "IQB Deutsch Sek I - Aufgabe"
+# IQB Deutsch Sek I - Aufgabe
 
 ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p16/master/unit.json`
 
-### Stimulus
+## Stimulus
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
@@ -27,14 +29,18 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p16/master/unit.jso
 | Instruktionszeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein | iqb_time_instructions |
 | Anzahl Vorspielen | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein | iqb_time_play |
 
-### Quellenangabe
+: {tbl-colwidths="[15,15,55,15]"}
+
+## Quellenangabe
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
 | Art der Quelle(n) | [Vokabular](https://w3id.org/iqb/v28/aq/) | url: 'https://w3id.org/iqb/v28/aq/', Einmalauswahl | k3 |
 | Vollständige Quellenangabe (Text) | Text |Mehrzeilig, Sprache(n): de | iqb_copyright |
 
-### Hörsequenz
+: {tbl-colwidths="[15,15,55,15]"}
+
+## Hörsequenz
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
@@ -44,7 +50,9 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p16/master/unit.jso
 | Nebengeräusche | [Vokabular](https://w3id.org/iqb/v25/ne/) | url: 'https://w3id.org/iqb/v25/ne/', Einmalauswahl, Nummerierung unterdrückt | k6 |
 | Transkript | Text |Mehrzeilig, Sprache(n): de | iqb_transcript |
 
-## Profil "IQB Deutsch Sek I - Item"
+: {tbl-colwidths="[15,15,55,15]"}
+
+# IQB Deutsch Sek I - Item
 
 ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p16/master/item.json`
 
@@ -57,4 +65,6 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p16/master/item.jso
 | Bildungsstandards MSA - sekundär | [Vokabular](https://w3id.org/iqb/v34/sm/) | url: 'https://w3id.org/iqb/v34/sm/', Mehrfachauswahl | s6 |
 | Itemzeit (IQB intern) | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_item |
 | Geschätzte Schwierigkeit | [Vokabular](https://w3id.org/iqb/v26/ea/) | url: 'https://w3id.org/iqb/v26/ea/', Einmalauswahl | e4 |
+
+: {tbl-colwidths="[15,15,55,15]"}
 

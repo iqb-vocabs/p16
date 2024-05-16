@@ -100,6 +100,20 @@
             "digits": 0,
             "isPeriodSeconds": true
           }
+        },
+        {
+          "id": "e4",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Geschätzte Schwierigkeit"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v26/ea/",
+            "allowMultipleValues": false
+          }
         }
       ]
     }
