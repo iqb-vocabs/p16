@@ -5,7 +5,7 @@
   "license": "CC0 1.0",
   "description": "Metadatenprofile: Deutsch Sek I",
   "scripts": {
-    "validate": "validate-md-profile -md"
+    "validate": "validate-md-profile"
   },
   "repository": {
     "type": "git",
