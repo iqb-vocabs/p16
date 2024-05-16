@@ -80,34 +80,6 @@
           }
         },
         {
-          "id": "k2",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Textsorte"
-            }
-          ],
-          "type": "vocabulary",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v25/te/",
-            "allowMultipleValues": false,
-            "hideNumbering": true
-          }
-        },
-        {
-          "id": "iqb_other_text_type",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Andere Textsorte"
-            }
-          ],
-          "type": "text",
-          "parameters": {
-            "format": "single"
-          }
-        },
-        {
           "id": "iqb_note",
           "label": [
             {
