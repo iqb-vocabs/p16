@@ -80,6 +80,21 @@
           }
         },
         {
+          "id": "k2",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Textsorte"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v28/ss/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
           "id": "iqb_note",
           "label": [
             {

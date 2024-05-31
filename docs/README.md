@@ -20,6 +20,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p16/master/unit.jso
 | Textschwierigkeit | [Vokabular](https://w3id.org/iqb/v26/ea/) | url: 'https://w3id.org/iqb/v26/ea/', Einmalauswahl | k0 |
 | Als SPF-Text geeignet | Ja/Nein |Text für WAHR: ja, Text für FALSCH: nein | a1 |
 | Texttyp | [Vokabular](https://w3id.org/iqb/v28/ts/) | url: 'https://w3id.org/iqb/v28/ts/', Einmalauswahl, Nummerierung unterdrückt | k1 |
+| Textsorte | [Vokabular](https://w3id.org/iqb/v28/ss/) | url: 'https://w3id.org/iqb/v28/ss/', Einmalauswahl, Nummerierung unterdrückt | k2 |
 | Notizfeld | Text |Mehrzeilig, Sprache(n): de | iqb_note |
 | Angaben zum Urtext und zu Inspirationsquellen | Text |Mehrzeilig, Sprache(n): de | iqb_additional_info |
 | Stimuluszeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_stimulus |
