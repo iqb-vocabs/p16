@@ -45,7 +45,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Als SPF-Text geeignet"
+              "value": "Für SPF geeignet"
             }
           ],
           "type": "boolean",
