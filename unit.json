@@ -177,6 +177,19 @@
             "minValue": 0,
             "digits": 0
           }
+        },
+        {
+          "id": "iqb_compatibility",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Unverträgliche Aufgaben"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "single"
+          }
         }
       ]
     },

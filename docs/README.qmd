@@ -29,6 +29,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p16/master/unit.jso
 | Aufgabenzeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_unit |
 | Instruktionszeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein | iqb_time_instructions |
 | Anzahl Vorspielen | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein | iqb_time_play |
+| Unverträgliche Aufgaben | Text |Einzeilig, Sprache(n): de | iqb_compatibility |
 
 : {tbl-colwidths="[15,15,55,15]"}
 
