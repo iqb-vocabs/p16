@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-659650fc26dc25888fc1474f317bb8ac.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -192,54 +192,60 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">a1</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">Kopfhörer</td>
+<td style="text-align: center;"><a href="https://w3id.org/iqb/v24/kh/">Vokabular</a></td>
+<td style="text-align: left;">url: ‘https://w3id.org/iqb/v24/kh/’, Einmalauswahl, Nummerierung unterdrückt</td>
+<td style="text-align: center;">iqb_phones</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">Texttyp</td>
 <td style="text-align: center;"><a href="https://w3id.org/iqb/v28/ts/">Vokabular</a></td>
 <td style="text-align: left;">url: ‘https://w3id.org/iqb/v28/ts/’, Einmalauswahl, Nummerierung unterdrückt</td>
 <td style="text-align: center;">k1</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Textsorte</td>
 <td style="text-align: center;"><a href="https://w3id.org/iqb/v28/ss/">Vokabular</a></td>
 <td style="text-align: left;">url: ‘https://w3id.org/iqb/v28/ss/’, Einmalauswahl, Nummerierung unterdrückt</td>
 <td style="text-align: center;">k2</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Notizfeld</td>
 <td style="text-align: center;">Text</td>
 <td style="text-align: left;">Mehrzeilig, Sprache(n): de</td>
 <td style="text-align: center;">iqb_note</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Angaben zum Urtext und zu Inspirationsquellen</td>
 <td style="text-align: center;">Text</td>
 <td style="text-align: left;">Mehrzeilig, Sprache(n): de</td>
 <td style="text-align: center;">iqb_additional_info</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Stimuluszeit</td>
 <td style="text-align: center;">Zahl</td>
 <td style="text-align: left;">Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden</td>
 <td style="text-align: center;">iqb_time_stimulus</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Aufgabenzeit</td>
 <td style="text-align: center;">Zahl</td>
 <td style="text-align: left;">Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden</td>
 <td style="text-align: center;">iqb_time_unit</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Instruktionszeit</td>
 <td style="text-align: center;">Zahl</td>
 <td style="text-align: left;">Kommastellen: 0, Mindestwert: 0, Maximalwert: kein</td>
 <td style="text-align: center;">iqb_time_instructions</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Anzahl Vorspielen</td>
 <td style="text-align: center;">Zahl</td>
 <td style="text-align: left;">Kommastellen: 0, Mindestwert: 0, Maximalwert: kein</td>
 <td style="text-align: center;">iqb_time_play</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Unverträgliche Aufgaben</td>
 <td style="text-align: center;">Text</td>
 <td style="text-align: left;">Einzeilig, Sprache(n): de</td>
@@ -483,8 +489,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -595,7 +599,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
