@@ -80,6 +80,21 @@
           }
         },
         {
+          "id": "w8",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Kompetenzbereich"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v34/sm/",
+            "allowMultipleValues": false,
+            "maxLevel": 1
+          }
+        },
+        {
           "id": "k1",
           "label": [
             {
