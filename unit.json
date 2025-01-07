@@ -27,20 +27,6 @@
           }
         },
         {
-          "id": "k0",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Textschwierigkeit"
-            }
-          ],
-          "type": "vocabulary",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v26/ea/",
-            "allowMultipleValues": false
-          }
-        },
-        {
           "id": "a1",
           "label": [
             {
