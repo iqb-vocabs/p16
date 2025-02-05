@@ -64,6 +64,8 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p16/master/item.jso
 | Lese-/Hörstil | [Vokabular](https://w3id.org/iqb/v26/lh/) | url: 'https://w3id.org/iqb/v26/lh/', Einmalauswahl, Nummerierung unterdrückt | s1 |
 | Itemformat | [Vokabular](https://w3id.org/iqb/v27/ds/) | url: 'https://w3id.org/iqb/v27/ds/', Einmalauswahl, Nummerierung unterdrückt | s2 |
 | Anforderungsbereich | [Vokabular](https://w3id.org/iqb/v34/a1/) | url: 'https://w3id.org/iqb/v34/a1/', Einmalauswahl, Nummerierung unterdrückt | s3 |
+| Bildungsstandard ESA - primär | [Vokabular](https://w3id.org/iqb/v34/se/) | url: 'https://w3id.org/iqb/v34/se/', Einmalauswahl | s7 |
+| Bildungsstandards ESA - sekundär | [Vokabular](https://w3id.org/iqb/v34/se/) | url: 'https://w3id.org/iqb/v34/se/', Mehrfachauswahl | s8 |
 | Bildungsstandard MSA - primär | [Vokabular](https://w3id.org/iqb/v34/sm/) | url: 'https://w3id.org/iqb/v34/sm/', Einmalauswahl | s5 |
 | Bildungsstandards MSA - sekundär | [Vokabular](https://w3id.org/iqb/v34/sm/) | url: 'https://w3id.org/iqb/v34/sm/', Mehrfachauswahl | s6 |
 | Itemzeit (IQB intern) | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_item |

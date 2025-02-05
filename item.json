@@ -59,6 +59,34 @@
           }
         },
         {
+          "id": "s7",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Bildungsstandard ESA - primär"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v34/se/",
+            "allowMultipleValues": false
+          }
+        },
+        {
+          "id": "s8",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Bildungsstandards ESA - sekundär"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v34/se/",
+            "allowMultipleValues": true
+          }
+        },
+        {
           "id": "s5",
           "label": [
             {
