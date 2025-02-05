@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "docs/changelog.html",
+    "href": "docs/changelog.html",
+    "title": "",
+    "section": "",
+    "text": "Änderung von Version 0.6.0 auf Version 0.7.0\nDas Feld ‘Textschwierigkeit’ in Stimulus wurde entfernt.\n\n\nÄnderung von Version 0.7.0 auf Version 0.8.0\nDie Felder Bildungsstandard ESA - primär und - sekundär in Item sind hinzugefügt worden."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Metadatenprofile für Testaufgaben - Deutsch Sek I",
@@ -26,12 +33,5 @@
     "title": "Metadatenprofile für Testaufgaben - Deutsch Sek I",
     "section": "Hörsequenz",
     "text": "Hörsequenz\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nAnzahl der Sprecher*innen\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein\niqb_speakers\n\n\nSprechtempo\nVokabular\nurl: ‘https://w3id.org/iqb/v25/sp/’, Einmalauswahl, Nummerierung unterdrückt\nk4\n\n\nVarianten\nVokabular\nurl: ‘https://w3id.org/iqb/v28/dv/’, Mehrfachauswahl, Nummerierung unterdrückt\nk5\n\n\nNebengeräusche\nVokabular\nurl: ‘https://w3id.org/iqb/v25/ne/’, Einmalauswahl, Nummerierung unterdrückt\nk6\n\n\nTranskript\nText\nMehrzeilig, Sprache(n): de\niqb_transcript"
-  },
-  {
-    "objectID": "docs/changelog.html",
-    "href": "docs/changelog.html",
-    "title": "",
-    "section": "",
-    "text": "Änderung von Version 0.6.0 auf Version 0.7.0\nDas Feld ‘Textschwierigkeit’ in Stimulus wurde entfernt."
   }
 ]
