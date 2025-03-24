@@ -142,6 +142,20 @@
             "url": "https://w3id.org/iqb/v26/ea/",
             "allowMultipleValues": false
           }
+        },
+        {
+          "id": "iqb_itemtech",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Technische Besonderheiten der Antwortoptionen"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v27/ti/",
+            "allowMultipleValues": true
+          }
         }
       ]
     }
