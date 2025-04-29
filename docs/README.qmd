@@ -21,6 +21,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p16/master/unit.jso
 | Entwickler*in | Text |Einzeilig, Sprache(n): de | iqb_author |
 | Für SPF geeignet | Ja/Nein |Text für WAHR: ja, Text für FALSCH: nein | a1 |
 | Kopfhörereinsatz | [Vokabular](https://w3id.org/iqb/v24/kh/) | url: 'https://w3id.org/iqb/v24/kh/', Einmalauswahl, Nummerierung unterdrückt | iqb_phones |
+| Schulform | [Vokabular](https://w3id.org/kim/schularten/) | url: 'https://w3id.org/kim/schularten/', Einmalauswahl, Nummerierung unterdrückt | kim_type_school |
 | Kompetenzbereich | [Vokabular](https://w3id.org/iqb/v34/sm/) | url: 'https://w3id.org/iqb/v34/sm/', Einmalauswahl, Zeige nur erste Ebene | w8 |
 | Texttyp | [Vokabular](https://w3id.org/iqb/v28/ts/) | url: 'https://w3id.org/iqb/v28/ts/', Einmalauswahl, Nummerierung unterdrückt | k1 |
 | Textsorte | [Vokabular](https://w3id.org/iqb/v28/ss/) | url: 'https://w3id.org/iqb/v28/ss/', Einmalauswahl, Nummerierung unterdrückt | k2 |

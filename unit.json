@@ -66,6 +66,21 @@
           }
         },
         {
+          "id": "kim_type_school",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Schulform"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/kim/schularten/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
           "id": "w8",
           "label": [
             {
