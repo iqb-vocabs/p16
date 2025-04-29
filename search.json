@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "docs/changelog.html",
-    "href": "docs/changelog.html",
-    "title": "",
-    "section": "",
-    "text": "Änderung von Version 0.6.0 auf Version 0.7.0\nDas Feld ‘Textschwierigkeit’ in Stimulus wurde entfernt.\n\n\nÄnderung von Version 0.7.0 auf Version 0.8.0\nDie Felder Bildungsstandard ESA - primär und - sekundär in Item sind hinzugefügt worden."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Metadatenprofile für Testaufgaben - Deutsch Sek I",
@@ -18,7 +11,7 @@
     "href": "index.html#stimulus",
     "title": "Metadatenprofile für Testaufgaben - Deutsch Sek I",
     "section": "Stimulus",
-    "text": "Stimulus\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nEntwickler*in\nText\nEinzeilig, Sprache(n): de\niqb_author\n\n\nFür SPF geeignet\nJa/Nein\nText für WAHR: ja, Text für FALSCH: nein\na1\n\n\nKopfhörereinsatz\nVokabular\nurl: ‘https://w3id.org/iqb/v24/kh/’, Einmalauswahl, Nummerierung unterdrückt\niqb_phones\n\n\nKompetenzbereich\nVokabular\nurl: ‘https://w3id.org/iqb/v34/sm/’, Einmalauswahl, Zeige nur erste Ebene\nw8\n\n\nTexttyp\nVokabular\nurl: ‘https://w3id.org/iqb/v28/ts/’, Einmalauswahl, Nummerierung unterdrückt\nk1\n\n\nTextsorte\nVokabular\nurl: ‘https://w3id.org/iqb/v28/ss/’, Einmalauswahl, Nummerierung unterdrückt\nk2\n\n\nNotizfeld\nText\nMehrzeilig, Sprache(n): de\niqb_note\n\n\nAngaben zum Urtext und zu Inspirationsquellen\nText\nMehrzeilig, Sprache(n): de\niqb_additional_info\n\n\nStimuluszeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_stimulus\n\n\nAufgabenzeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_unit\n\n\nInstruktionszeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein\niqb_time_instructions\n\n\nAnzahl Vorspielen\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein\niqb_time_play\n\n\nUnverträgliche Aufgaben\nText\nEinzeilig, Sprache(n): de\niqb_compatibility"
+    "text": "Stimulus\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nEntwickler*in\nText\nEinzeilig, Sprache(n): de\niqb_author\n\n\nFür SPF geeignet\nJa/Nein\nText für WAHR: ja, Text für FALSCH: nein\na1\n\n\nKopfhörereinsatz\nVokabular\nurl: ‘https://w3id.org/iqb/v24/kh/’, Einmalauswahl, Nummerierung unterdrückt\niqb_phones\n\n\nSchulform\nVokabular\nurl: ‘https://w3id.org/kim/schularten/’, Einmalauswahl, Nummerierung unterdrückt\nkim_type_school\n\n\nKompetenzbereich\nVokabular\nurl: ‘https://w3id.org/iqb/v34/sm/’, Einmalauswahl, Zeige nur erste Ebene\nw8\n\n\nTexttyp\nVokabular\nurl: ‘https://w3id.org/iqb/v28/ts/’, Einmalauswahl, Nummerierung unterdrückt\nk1\n\n\nTextsorte\nVokabular\nurl: ‘https://w3id.org/iqb/v28/ss/’, Einmalauswahl, Nummerierung unterdrückt\nk2\n\n\nNotizfeld\nText\nMehrzeilig, Sprache(n): de\niqb_note\n\n\nAngaben zum Urtext und zu Inspirationsquellen\nText\nMehrzeilig, Sprache(n): de\niqb_additional_info\n\n\nStimuluszeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_stimulus\n\n\nAufgabenzeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_unit\n\n\nInstruktionszeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein\niqb_time_instructions\n\n\nAnzahl Vorspielen\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein\niqb_time_play\n\n\nUnverträgliche Aufgaben\nText\nEinzeilig, Sprache(n): de\niqb_compatibility"
   },
   {
     "objectID": "index.html#quellenangabe",
@@ -33,5 +26,12 @@
     "title": "Metadatenprofile für Testaufgaben - Deutsch Sek I",
     "section": "Hörsequenz",
     "text": "Hörsequenz\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nAnzahl der Sprecher*innen\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein\niqb_speakers\n\n\nSprechtempo\nVokabular\nurl: ‘https://w3id.org/iqb/v25/sp/’, Einmalauswahl, Nummerierung unterdrückt\nk4\n\n\nVarianten\nVokabular\nurl: ‘https://w3id.org/iqb/v28/dv/’, Mehrfachauswahl, Nummerierung unterdrückt\nk5\n\n\nNebengeräusche\nVokabular\nurl: ‘https://w3id.org/iqb/v25/ne/’, Einmalauswahl, Nummerierung unterdrückt\nk6\n\n\nTranskript\nText\nMehrzeilig, Sprache(n): de\niqb_transcript"
+  },
+  {
+    "objectID": "docs/changelog.html",
+    "href": "docs/changelog.html",
+    "title": "",
+    "section": "",
+    "text": "Änderung von Version 0.6.0 auf Version 0.7.0\nDas Feld ‘Textschwierigkeit’ in Stimulus wurde entfernt.\n\n\nÄnderung von Version 0.7.0 auf Version 0.8.0\nDie Felder Bildungsstandard ESA - primär und - sekundär in Item sind hinzugefügt worden."
   }
 ]
