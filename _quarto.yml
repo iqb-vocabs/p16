@@ -7,7 +7,7 @@ website:
   page-navigation: true
   repo-url: https://github.com/iqb-vocabs/p16/
   navbar:
-    logo: iqb-logo-red.png
+    logo: iqb-logo-black.png
     search: true
     left:
       - href: index.qmd
