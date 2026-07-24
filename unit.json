@@ -1,9 +1,14 @@
 {
   "id": "https://raw.githubusercontent.com/iqb-vocabs/p16/master/unit.json",
-  "label": [{
-    "lang": "de",
-    "value": "IQB Deutsch Sek I - Aufgabe"
-  }],
+  "label": [
+    {
+      "lang": "de",
+      "value": "IQB Deutsch Sek I - Aufgabe"
+    }
+  ],
+  "target": [
+    "UNIT"
+  ],
   "groups": [
     {
       "label": [
@@ -21,9 +26,9 @@
               "value": "Entwickler*in"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "single"
+            "format": "SINGLE"
           }
         },
         {
@@ -34,7 +39,7 @@
               "value": "Für SPF geeignet"
             }
           ],
-          "type": "boolean",
+          "type": "BOOLEAN",
           "parameters": {
             "trueLabel": [
               {
@@ -58,7 +63,7 @@
               "value": "Kopfhörereinsatz"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v24/kh/",
             "allowMultipleValues": false,
@@ -73,7 +78,7 @@
               "value": "Schulform"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/kim/schularten/",
             "allowMultipleValues": false,
@@ -88,7 +93,7 @@
               "value": "Kompetenzbereich"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v34/sm/",
             "allowMultipleValues": false,
@@ -103,7 +108,7 @@
               "value": "Texttyp"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v28/ts/",
             "allowMultipleValues": false,
@@ -118,7 +123,7 @@
               "value": "Textsorte"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v28/ss/",
             "allowMultipleValues": false,
@@ -133,9 +138,9 @@
               "value": "Notizfeld"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "multiline"
+            "format": "MULTILINE"
           }
         },
         {
@@ -146,9 +151,9 @@
               "value": "Angaben zum Urtext und zu Inspirationsquellen"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "multiline"
+            "format": "MULTILINE"
           }
         },
         {
@@ -159,7 +164,7 @@
               "value": "Stimuluszeit"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0,
@@ -174,7 +179,7 @@
               "value": "Aufgabenzeit"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0,
@@ -189,7 +194,7 @@
               "value": "Instruktionszeit"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0
@@ -203,7 +208,7 @@
               "value": "Anzahl Vorspielen"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0
@@ -217,9 +222,9 @@
               "value": "Unverträgliche Aufgaben"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "single"
+            "format": "SINGLE"
           }
         }
       ]
@@ -240,7 +245,7 @@
               "value": "Art der Quelle(n)"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v28/aq/",
             "allowMultipleValues": false
@@ -254,9 +259,9 @@
               "value": "Vollständige Quellenangabe (Text)"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "multiline"
+            "format": "MULTILINE"
           }
         }
       ]
@@ -277,7 +282,7 @@
               "value": "Anzahl der Sprecher*innen"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0
@@ -291,7 +296,7 @@
               "value": "Sprechtempo"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v25/sp/",
             "allowMultipleValues": false,
@@ -306,7 +311,7 @@
               "value": "Varianten"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v28/dv/",
             "allowMultipleValues": true,
@@ -321,7 +326,7 @@
               "value": "Nebengeräusche"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v25/ne/",
             "allowMultipleValues": false,
@@ -336,9 +341,9 @@
               "value": "Transkript"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "multiline"
+            "format": "MULTILINE"
           }
         }
       ]

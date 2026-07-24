@@ -1,9 +1,14 @@
 {
   "id": "https://raw.githubusercontent.com/iqb-vocabs/p16/master/item.json",
-  "label": [{
-    "lang": "de",
-    "value": "IQB Deutsch Sek I - Item"
-  }],
+  "label": [
+    {
+      "lang": "de",
+      "value": "IQB Deutsch Sek I - Item"
+    }
+  ],
+  "target": [
+    "ITEM"
+  ],
   "groups": [
     {
       "label": [
@@ -21,7 +26,7 @@
               "value": "Lese-/Hörstil"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v26/lh/",
             "allowMultipleValues": false,
@@ -36,7 +41,7 @@
               "value": "Itemformat"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v27/ds/",
             "allowMultipleValues": false,
@@ -51,7 +56,7 @@
               "value": "Anforderungsbereich"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v34/a1/",
             "allowMultipleValues": false,
@@ -66,7 +71,7 @@
               "value": "Bildungsstandard ESA - primär"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v34/se/",
             "allowMultipleValues": false
@@ -80,7 +85,7 @@
               "value": "Bildungsstandards ESA - sekundär"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v34/se/",
             "allowMultipleValues": true
@@ -94,7 +99,7 @@
               "value": "Bildungsstandard MSA - primär"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v34/sm/",
             "allowMultipleValues": false
@@ -108,7 +113,7 @@
               "value": "Bildungsstandards MSA - sekundär"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v34/sm/",
             "allowMultipleValues": true
@@ -122,7 +127,7 @@
               "value": "Itemzeit (IQB intern)"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0,
@@ -137,7 +142,7 @@
               "value": "Geschätzte Schwierigkeit"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v26/ea/",
             "allowMultipleValues": false
@@ -151,7 +156,7 @@
               "value": "Technische Besonderheiten der Antwortoptionen"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v27/ti/",
             "allowMultipleValues": true
